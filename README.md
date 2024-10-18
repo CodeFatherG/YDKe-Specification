@@ -18,20 +18,20 @@ ydke://<main>!<extra>!<side>!
 ### Basic Example
 
 1. `Blue-Eyes White Dragon` (passcode: 89631139)
-2. EDOPro export: `ydke://pKlXBQ==!!!`
-3. Components: `['pKlXBQ==', '', '']`
-4. Decoded: `A4A95705` → Little-endian: `0x0557A9A4` (89631140)
+2. EDOPro export: `ydke://o6lXBQ==!!!`
+3. Components: `['o6lXBQ==', '', '']`
+4. Decoded: `A3A95705` → Little-endian: `0x0557A9A3` (89631139)
 
 ### Multi-Component Example
 
 ```
-ydke://pKlXBQbqRAQ=!SSyyAg==!rvTMAg==!
+ydke://o6lXBQbqRAQ=!SSyyAg==!rvTMAg==!
 ```
 
-1. Components: `['pKlXBQbqRAQ=', 'SSyyAg==', 'rvTMAg==']`
+1. Components: `['o6lXBQbqRAQ=', 'SSyyAg==', 'rvTMAg==']`
 2. Main deck:
-   - `A4A9570506EA4404` → `[A4A95705, 06EA4404]`
-   - `0x0557A9A4` (89631140): [Blue-Eyes White Dragon](https://yugioh.fandom.com/wiki/89631140)
+   - `A3A9570506EA4404` → `[A3A95705, 06EA4404]`
+   - `0x0557A9A4` (89631139): [Blue-Eyes White Dragon](https://yugioh.fandom.com/wiki/89631139)
    - `0x0444EA06` (71625222): [Time Wizard](https://yugioh.fandom.com/wiki/71625222)
 3. Extra deck:
    - `492CB202` → `0x02B22C49` (45231177): [Flame Swordsman](https://yugioh.fandom.com/wiki/45231177)
