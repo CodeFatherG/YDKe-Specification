@@ -11,6 +11,7 @@ ydke://<main>!<extra>!<side>!
 - Three components: main deck, extra deck, and side deck, separated by `!`
 - Each component is a base64 encoded string of Konami card passcodes
 - Passcodes are stored as 32-bit little-endian values
+    - It is likely that the endianess is dependant on the exporter architecture. Almost everything is LE now days almost standardising that this is enforced LE. If you intend your implementation to be BE compatible, you should test this and raise an issue.
 
 ## Examples
 
